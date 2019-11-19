@@ -20,7 +20,7 @@ actions
 1) Clone this repo 
 2) Exec npm install 
 
-To run locally you would need to install an Emulator for Android. (link al instalador)
+To run locally you would need to install an Emulator for Android. (https://developer.android.com/studio)
 To run in iOS you need a OSX.
 
 4) For iOS: Exec npm run ios 
