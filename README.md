@@ -1,4 +1,8 @@
 
+
+🍸 A Cocktail Finder App created in React Native 🍸
+
+
 This application relies on React Native and Redux (for state management). 
 It allows you to search for drinks over a Cocktail API.
 
