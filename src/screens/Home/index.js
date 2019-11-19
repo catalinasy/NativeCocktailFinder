@@ -1,21 +1,28 @@
-import React from 'react';
-import LinearGradient from 'react-native-linear-gradient';
-import { Text, View } from 'react-native';
+import React from "react";
+import LinearGradient from "react-native-linear-gradient";
+import { Text, View } from "react-native";
 
-import styles from "./styles"
+import styles from "./styles";
 
-import { GRADIENT } from "../../utils/constants"
+import { GRADIENT } from "../../utils/constants";
 
-import SearchBar from '../../components/SearchBar';
-
+import SearchBar from "../../components/SearchBar";
 
 export default class Home extends React.Component {
   static navigationOptions = {
-    title: 'Home',
+    title: "Home"
   };
 
   render() {
-    const {container, logo, gradient, textContainer, boldText, text, searchBar} = styles
+    const {
+      container,
+      logo,
+      gradient,
+      textContainer,
+      boldText,
+      text,
+      searchBar
+    } = styles;
 
     return (
       <View style={container}>

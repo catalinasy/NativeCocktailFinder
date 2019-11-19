@@ -1,22 +1,17 @@
-import React, {Component} from "react";
-import PropTypes from "prop-types"
-import {
-    Text,
-    View,
-    Image
-} from "react-native";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { Text, View, Image } from "react-native";
 
-import styles from "./styles"
+import styles from "./styles";
 
- class Item extends Component{
+class Item extends Component {
   render() {
-    const {drink: { name, photo }} = this.props
+    const {
+      drink: { name, photo }
+    } = this.props;
     return (
-      <View style={styles.container}> 
-        <Image
-          style={styles.image}
-          source={{uri: photo.toString()}}
-        />
+      <View style={styles.container}>
+        <Image style={styles.image} source={{ uri: photo.toString() }} />
         <Text style={styles.text}>{name}</Text>
       </View>
     );
@@ -28,6 +23,6 @@ Item.propTypes = {
     name: PropTypes.string,
     photo: PropTypes.string
   }).isRequired
-}
+};
 
-export default Item
+export default Item;
