@@ -36,9 +36,11 @@ e.g.
 ```
 
 drinks: {
+    isFetching: false,
+    drinks: {
 	1234: {id: "1234", name: “vodka”, photo: “http://…”},
 	1235: {id: "1235", name: “vodka”, photo: “http://…”}
-}
+    }}
 
 ```
 
