@@ -40,7 +40,7 @@ class List extends Component {
             )}
             {nothingFound && <NotFound style={styles.messageContainer} />}
             {drinkKeys && (
-              <ScrollView>
+              <ScrollView style={styles.scrollView}>
                 {drinkKeys.map(drinkId => (
                   <Item key={drinkId} drink={drinks[drinkId]} />
                 ))}

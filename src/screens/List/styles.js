@@ -16,5 +16,8 @@ export default styles = StyleSheet.create({
   },
   messageContainer: {
     height: Dimensions.get("window").height - 40
+  },
+  scrollView: {
+    height: Dimensions.get("window").height - 120
   }
 });
