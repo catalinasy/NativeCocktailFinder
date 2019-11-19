@@ -42,7 +42,7 @@ drinks: {
 
 ```
 
-I’m normalizing the data by building a “hashtable”, a `key-value` structure (object) where each key is drink's id. <br />
+I’m normalizing the data by building a “hashtable”, a `key-value` structure (object) where each key is the drink's id. <br />
 
 In order to build this structure, I’m using a helper function called `formatDrinks`. This function receives an array of drinks and executes a `reduce` to return the format needed. <br />
 
