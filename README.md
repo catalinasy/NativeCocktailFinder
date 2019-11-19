@@ -10,7 +10,7 @@ To achieve functionality and a nice UI I used the following libraries:
  - react-navigation, react-native-gesture-handler and react-navigation-stack: to achive navigation between screens
  
 
-### State architecture: AGREGA ESTO
+### State architecture:
 state
 format function
 actions
