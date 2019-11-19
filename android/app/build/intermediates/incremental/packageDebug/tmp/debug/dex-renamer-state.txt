@@ -1,0 +1,4 @@
+#Mon Nov 18 14:04:42 ART 2019
+base.0=/Users/catalina/learning/cocktail-finder-nativo/cocktailfinder/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
